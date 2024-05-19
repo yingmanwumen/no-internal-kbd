@@ -1,6 +1,11 @@
 [package]
-name = "no-interrnal-kbd"
+name = "no-internal-kbd"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+anyhow = "1.0.86"
+evdev = "0.12.2"
+nix = { version = "0.28.0", features = ["user"] }
+tokio = { version = "1.37.0", features = ["macros", "net", "rt"] }
+udev = "0.8.0"
