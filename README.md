@@ -1,12 +1,12 @@
 # No Internal Keyboard
 
-Disable the internal keyboard of laptop automatically when using external keyboard(s).
+This project disables the internal keyboard of laptop automatically when using external keyboard(s).
 
-Writting it in Rust just for fun. A shell script is equivalent.
+It is written in Rust just for fun. A shell script is equivalent.
 
-Run it in a systemd service to enable it automatically.
+Running it in a systemd service to enable it automatically.
 
-This tool is only for Linux laptop, and it is really simple so I'm not interested in accomplishing it as it already works.
+This tool is only for Linux laptop, and it is really simple so I'm not interested in accomplishing it as it already worked.
 
 ## Dependencies
 
